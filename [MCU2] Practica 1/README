@@ -1,0 +1,11 @@
+Se implementan desde cero las siguientes funciones en lenguaje C:
+
+-MemCpy
+-MemSet
+-FindMax
+-FindMin
+-StrCmp
+-StrLen
+-ByteAddress
+-Quicksort
+-Sprintf
