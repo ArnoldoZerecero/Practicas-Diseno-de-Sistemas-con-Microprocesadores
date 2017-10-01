@@ -1,0 +1,11 @@
+Se implementa una aplicación de frecuencímetro sin utilizar interrupciones ni periféricos, más que el GPIO, del KL25z Cortex M0+.
+
+-La aplicación siguen el formato de Big Main Loop, el cual implementa drivers para controlar los LEDs del microcontrolador, así como botones y displays de siete segmentos externos.
+La aplicación además cumple con las siguientes especificaciones:
+
+-El LED azul parpadeará cada segundo para demostrar que el sistema está funcionando.
+-El LED rojo parpadeará 4 veces por segundo cuando se detecte una frecuencia de entrada.
+-La frecuencia detectada se mostrará en los 4 displays de siete segmentos externos, y se actualizará cada segundo.
+-Si la frecuencia detectada es mayor a 5KHz, se mandará a escribir "1---" en los displays.
+-Un botón externo puede ser presionado para entrar o salir al modo "Hold"
+    -En este modo, la última frecuecia detectada quedará congelada en los displays y el LED verde parpadeará 2 veces cada segundo.
