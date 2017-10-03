@@ -9,3 +9,6 @@ La aplicación además cumple con las siguientes especificaciones:
 -Si la frecuencia detectada es mayor a 5KHz, se mandará a escribir "1---" en los displays.
 -Un botón externo puede ser presionado para entrar o salir al modo "Hold"
     -En este modo, la última frecuecia detectada quedará congelada en los displays y el LED verde parpadeará 2 veces cada segundo.
+    
+ Link del video: https://photos.app.goo.gl/DEWuLNWpe5pk9VYc2
+
