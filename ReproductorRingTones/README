@@ -3,3 +3,5 @@ Se codificó un reproductor de Ringtones utilizando el formato de Nokia en la KL
 Se utilizó el módulo de PIT del microcontrolador como contador por hardware base.
 
 El ringtone elegido es reproducido utilizando un buzzer externo y por medio de un botón externo se comienza a reproducir el ringtone. Un led se togglea al ritmo del tono.
+
+Video: https://photos.app.goo.gl/AScxTTao4WZS9muP2
