@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "D:/Documents/UAG/ISE/Contador8bits/Top_Module_Test_isim_beh.exe" -prj "D:/Documents/UAG/ISE/Contador8bits/Top_Module_Test_beh.prj" "work.Top_Module_Test" "work.glbl" 

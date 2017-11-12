@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj Contador8bits -o D:/Documents/UAG/ISE/Contador8bits/detector_flancos.tfi -lib work D:/Documents/UAG/ISE/Contador8bits//detector_flancos.v -module detector_flancos -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
