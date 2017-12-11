@@ -1,0 +1,21 @@
+Se elaboró un generador de frecuencias utilizando el módulo de DAC de la KL25z Cortex M0+.
+
+El código permite generar las siguientes señales:
+-Senoidal
+-Cuadrada
+-Triangular
+-Diente de sierra
+-Carga y descarga de capacitor
+-Senoidal rectificada
+-Complejo QRS
+-Exponencial
+
+Se implementaron 4 botones externos para controlar las señales:
+-Uno para cambiar el tipo de señal.
+-Otro para incrementar la frecuencia de la señal generada en 100 Hz (hasta 2.5KHz)
+-Otro para decrementar la frecuencia de la señal generada en 100 Hz (mínimo 100 Hz)
+-Otro para apagar o encender la generación de señal.
+
+Además, se utilizó una pantalla LCD 16x2 en modo 4 bits para mostrar el nombre de la señal que está siendo generada y su frecuencia.
+
+Video de demostración: https://photos.app.goo.gl/GruwuIGN9bWVHR6Q2
