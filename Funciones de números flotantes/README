@@ -1,0 +1,12 @@
+Se elaboraron diferentes funciones para trabajar con números flotantes a fin de facilitar su uso sin la utilización de librerias. Las funciones se basaron en el estándar IEEE 754 para notación de punto flotante.
+
+Las funciones creadas fueron las siguientes:
+-Conversión de entero a flotante.
+-Conversión de flotante a entero.
+-Suma de 2 números flotantes.
+-Resta de 2 números flotantes.
+-Comparación de 2 números flotantes.
+-Divisón de 2 números flotantes.
+-Módulo de 2 números flotantes.
+
+Las funciones trabajan con números flotantes no mayores a 16 bits. Si se intenta operar con parámetros mayores a 16 bits, las funciones regresarán INFINITY o -INFINITY.
