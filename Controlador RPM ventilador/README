@@ -3,3 +3,5 @@ Se elaboró una aplicación para medir y controlar los RPM de un ventilador util
 -Se implementaron 2 botones externos para incrementar o decrementar los RPM del ventilador (utilizando PWM), desde 7200 hasta 12000 RPM utilizando una alimentación de 12v.
 -Utilizando el modo Input Capture, se midieron los pulsos que entrega el tacómetro del ventilador. Se midió la diferencia de tiempo (cuentas) entre cada pulso y por medio de un algoritmo, se convirtió esto a un valor de RPM.
 -El valor resultante de RPM se mostró utilizando 4 displays de 7 segmentos.
+
+Video de demostración: https://photos.app.goo.gl/3ffdFbdUqYCATYiy1 
