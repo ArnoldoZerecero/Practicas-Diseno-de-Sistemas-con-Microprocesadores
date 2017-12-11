@@ -1,6 +1,7 @@
 Se elaboró un código para comunicarse con la EEPROM ST24C16 de 16k por medio del protocolo de comunicación I2C utilizando la KL25z Cortex M0+.
 
 El usuario puede teclear comandos a través de una terminal para comunicarse con la memoria. Esta terminal se comunica con la KL25z a utilizando UART.
+
 Los comandos soportados son los siguientes:
 -S: Busca dispositivos esclavos en el bus al hacer un barrido de direcciones entre 0x50 y 0x57 (hex de 7 bits) hacia el bus y muestra las direcciones con las que se recibió un ACK.
 -W (dirección hex) (número de datos) (dato1 dato2... datoN). Escribe hasta 8 bytes en memoria.
