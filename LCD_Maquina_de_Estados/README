@@ -1,0 +1,12 @@
+Se elaboró un videojuego simple que puede jugarse en una pantalla LCD 16x2 utilizando 2 botones. El código fue realizado implementando una máquina de estados que controle el LCD en modo de 4 bits, utilizando la KL25z Cortex M0+.
+
+El videojuego consiste de un perro que tiene el objetivo de atrapar la mayor cantidad de huesos posibles mientras esquiva a las serpientes que se aproximan.
+-El perro puede moverse hacia arriba o hacia abajo en la pantalla al presionar un botón, mientras que los obstáculos se acercan a él de derecha a izquierda a diferentes velocidades (controladas por el módulo de PIT).
+-La generación y velocidad de los obstáculos son completamente aleatorios.
+-Al atrapar un hueso, se añade un punto al puntaje, y cada 5 puntos se accede al siguiente nivel, donde las velocidades de los obstáculos se incrementan.
+-Tocar una serpiente hace que se pierda una vida.
+-El juego consta de 3 niveles y 3 vidas. Al perder las 3 vidas el juego finaliza.
+-En cualquier momento se puede pausar o reanudar el juego utilizando otro botón.
+-Los sprites para el perro, el hueso, la serpiente y el corazón de vidas restantes fueron generados y guardados en la RAM de la LCD.
+
+Video de demostración: https://photos.app.goo.gl/Jg1hbGo2Ihwpz46j2
